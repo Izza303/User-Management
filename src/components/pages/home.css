@@ -1,0 +1,48 @@
+.tablestyle{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 800px;
+    box-shadow: 0 0 20px black;
+}
+.tablestyle thead tr{
+    background-color: #917c46;
+    color: #ffffff;
+    text-align: left;
+}
+.tablestyle th,
+.tablestyle td{
+    padding: 12px 15px;
+}
+.tablestyle tbody tr {
+border-bottom:  1px solid #ffffff;
+}
+.tablestyle tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.tablestyle tbody tr:last-of-type {
+    background-color: #cde0db;
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.btn-edit{
+    background-color: rgb(89, 235, 89)
+}
+.btn-delete{
+    background-color: rgb(241, 53, 53);
+}
+.btn-view{
+    background-color: black;
+}
